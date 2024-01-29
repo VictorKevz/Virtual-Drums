@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 
 }
 #intro{
@@ -48,13 +48,15 @@ footer{
     color: coral;
     padding-top: 1%;
 }
-
+a{
+    text-decoration: none;
+}
 .pressed{
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 1;
 }
 
-@media (max-width:490px) {
+@media (max-width:495px) {
     div > button{
         font-size: 15px;
         font-weight: bold;
@@ -66,12 +68,12 @@ footer{
         font-weight: bolder;
     }
 }
-@media (min-width: 491px) and (max-width: 990px) {
+@media (min-width: 496px) and (max-width: 990px) {
     div > button{
         font-size: 30px;
         font-weight: bold;
-        width: 120px;
-        height: 150px; 
+        width: 100px;
+        height: 120px; 
     }
     h1{
         font-size: 30px;
