@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-y: hidden;
+
+}
+#intro{
+    text-align: center;
+    margin: 5% auto;
+    color: #DBEDF3;
+}
+h1{
+    font-family: 'Black Ops One', system-ui;
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 4% auto;
+    max-width: 50%;
+}
+span{
+    color: coral;
+    font-weight: bolder;
+}
+div > button{
+font-size: 50px;
+font-weight: bold;
+width: 200px;
+height: 160px;
+border: none;
+background-color: #DBEDF3;
+border-radius: 10%;
+box-shadow: 2px 3px 3px coral;
+
+}
+
+#info{
+    text-align: center;
+    margin-top: 9.5%;
+    padding: 2% 0%;
+    background-color: #DBEDF3;
+    overflow-y: hidden;
+}
+footer{
+    color: coral;
+    padding-top: 1%;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 1;
+}
+
+@media (max-width:490px) {
+    div > button{
+        font-size: 15px;
+        font-weight: bold;
+        width: 60px;
+        height: 70px; 
+    }
+    h1{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+}
+@media (min-width: 491px) and (max-width: 990px) {
+    div > button{
+        font-size: 30px;
+        font-weight: bold;
+        width: 120px;
+        height: 150px; 
+    }
+    h1{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    #info{
+        margin-top: 0%;
+    }
+}
+
